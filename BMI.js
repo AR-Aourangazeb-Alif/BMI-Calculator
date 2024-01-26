@@ -81,20 +81,20 @@ if (BMI < 16){
     console.log('Healthy BMI range: 18.5 - 25');
     console.log(`Healthy weight for the height: ${minPerfectWeight} kg - ${maxPerfectWeight} kg`);
 }
-else if (BMI >= 16 && BMI <= 17){
+else if (BMI >= 16 && BMI < 17){
     console.log('At risk of Moderate Thinness');
     console.log('Healthy BMI range: 18.5 - 25');
     console.log(`Healthy weight for the height: ${minPerfectWeight} kg - ${maxPerfectWeight} kg`);
 }
-else if (BMI > 17 && BMI <= 18.5){
+else if (BMI >= 17 && BMI < 18.5){
     console.log('At risk of Mild Thinness');
     console.log('Healthy BMI range: 18.5 - 25');
     console.log(`Healthy weight for the height: ${minPerfectWeight} kg - ${maxPerfectWeight} kg`);
 }
-else if (BMI > 18.5 && BMI <= 25){
+else if (BMI >= 18.5 && BMI < 25){
     console.log('Your BMI is Normal');
 }
-else if (BMI > 25 && BMI <= 30){
+else if (BMI >= 25 && BMI < 30){
     console.log('At risk of Overweight');
     console.log('Healthy BMI range: 18.5 - 25');
     console.log(`Healthy weight for the height: ${minPerfectWeight} kg - ${maxPerfectWeight} kg`);
